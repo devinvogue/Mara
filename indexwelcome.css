@@ -1,0 +1,97 @@
+#wrapper{
+    margin: 0 auto;
+    width: 900px;
+    height: 633px;
+    opacity: 10;
+}
+
+#cover{
+    margin: 0 auto;
+    width: 100%;
+    height: 633px;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+}
+
+#container{
+    width: 100%;
+    position: absolute;
+}
+
+header{
+ width: 900px;
+ height: 100px;
+ position: relative;
+ color: black;
+ margin:0;
+}
+
+
+body { background-image: url('images/clean.jpg');
+     background-size: cover;
+     margin: 0;
+     padding: 0;
+       
+     }
+
+     content{
+        width: 300px;
+        height: 300px;
+     }
+
+img {width: 80px; height: 80px; bottom: 0; position: absolute;}
+  
+
+#caption{
+    font-weight: 600;
+    font-size: 28px;
+    position: absolute;
+    bottom: 0;
+    left: 90px;
+    color: white;
+    font: frutiger; 
+     }
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    float: right;
+   }
+
+li {
+    float: left;
+   }
+
+li a {
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;}
+
+.nav {font-weight: 50px, 
+    background-color: blue;
+    margin-top: 35px;
+}    
+
+
+ #up {font-size: 25px; text-align: center; margin: 30% 0% 0% 0%;  padding: 0; color:white;}
+
+ #down {font-weight: 500; text-align: center; font-size: 80px; font: time new roman; margin: 0; padding: 0;color:yellow;}
+
+
+footer {
+        clear: both;
+        color: white;
+        background-color: #4717F6;
+        font-size: 100%; 
+        padding: 5px 0px; 
+        text-align: center;
+
+    }
+
