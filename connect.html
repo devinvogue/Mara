@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Our Project</title>
   <link href='connect.css' type='text/css' rel='stylesheet'></link>
 </head>
 
 <body>
-<div class='sign'>
-<button onclick="myFunction()">Sign UP </button> 
-  <button onclick="myFunction()">Login </button>
-</div>
 
 <header>
 
@@ -24,8 +22,26 @@
   <li><a href="connect.html">Connect<hr></a></li>
     </ul> 
 
-</header> 
+</header>
 
+<div id='form'>
+	<h2>Sign up to be a regular customer.</h2>
+<form name = "myForm"
+ action="/action_page.php"
+ onsubmit="return validateForm()"
+ method="post">
+ First Name:
+ <input type="text" name="fname">
+ Last Name:
+  <input type="text" name="fname"><br>
+ Email    :
+  <input type="text" name="fname"><br>
+
+
+ <input type="submit" value="submit">
+</form>
+
+</div>
 
 <div class ="icons">
 <a href="mailto:marahomeservices@gmail.com"><img src="images/mail.png" alt="" id="logo"></a>
