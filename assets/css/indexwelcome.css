@@ -27,16 +27,17 @@ header{
  width: 900px;
  height: 100px;
  position: relative;
- color: black;
  margin:0;
 }
 
 
-body { background-image: url('images/clean.jpg');
+body { background-image: url('../../assets/images/clean.jpg') ;
      background-size: cover;
      margin: 0;
      padding: 0;
-     font-family: Arial, Helvetica, sans-serif  
+     font-family: 'Arial', Helvetica, sans-serif; 
+     background-repeat: no-repeat;
+     height: 640px;
      }
 
      content{
@@ -90,7 +91,8 @@ li a:hover {
          padding: 0;color:yellow;}
 #click{text-align: center;}        
 button{ text-align: center; font-size: 30px; font: time new roman; margin: 0;
-         padding: 0;color:brown; background-color: black; opacity: 0.7;  }
+         padding: 0;color:brown; background-color: black; opacity: 0.7; box-shadow: -5px -5px grey;
+ }
 
 footer {
         clear: both;
