@@ -13,11 +13,12 @@ html{
   float: left;
   color: #A239CA;
   text-align: center;
-  padding: 5px;
   text-decoration: none;
   font-size: 20px; 
   line-height: 20px;
-  margin-right: 100px;
+  margin-right: 50px;
+  display:inline-block;
+    padding: 5px;
 }
 
 .header a.name {
@@ -119,18 +120,12 @@ border-radius: 50%;
 
 .column {
     float: left;
-    width: 32.33%;
-    padding: 12px;
+    width: 300;
+    padding: 5px;
     height: 500px;
     margin-top: 6vh;
     text-align: left;
     font-size: 20px
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    clear: both;
 }
 
 .us{
@@ -234,5 +229,10 @@ justify-content: center;
     background: purple;
 }
 
-
+#price{
+  text-align: center;
+  justify-content: center;
+  float: right;
+  margin-right: 20%
+}
 

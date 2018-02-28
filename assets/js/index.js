@@ -79,3 +79,9 @@ setInterval (function(){
          }
          return( true );
       }
+
+
+     /* pricing*/ 
+     function myFunction() {
+    document.getElementById("price").innerHTML = "";
+}
