@@ -1,119 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Our Project</title>
-  <link href='assets/css/connect.css' type='text/css' rel='stylesheet'></link>
+    <link href='  https://cdnjs.com/libraries/bulma' type='text/css' rel='stylesheet'></link>
+    <link href='assets/css/index.css' type='text/css' rel='stylesheet'></link>
+
+<script type="text/javascript">
+  
+</script>
 </head>
 
-<body>
+<body> 
+<div>
+<div class="header">
+   <img src="assets/images/logo.jpg" alt="LOGO"/ class="logo">
 
-<header>
+   <a href="#default" class="name">MaRa Home Services</a>
+  <div class="header-right">
+    <a href="Welcome.html">Welcome<hr></a>
+    <a href="About.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="connect.html">Connect</a>
 
-<img src="assets/images/logo.jpg" alt="LOGO"/>
-
-<p id="caption"> MaRa Home Services</p>
-
-<ul class="nav" >
-  <li><a href="Welcome.html">Welcome</a></li>
-  <li><a href="About.html">About Us</a></li>   
-  <li><a href="services.html">Services</a></li>
-  <li><a href="connect.html">Connect<hr></a></li>
-    </ul> 
-
-</header>
-
-<h2>Signup For Our Services</h2>
-
-<button onclick="document.getElementById('Signup').style.display='block'" style="width:auto;">Sign Up</button>
-
-<div id="Signup" class="modal">
-  <span onclick="document.getElementById('Signup').style.display='none'" class="close" title="Close Modal">&times;</span>
-  <form class="modal-content" action="/action_page.php">
-    <div class="container">
-      <h1>Sign Up</h1>
-      <p>Please fill in this form to create an account.</p>
-      <hr>
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <label for="psw-repeat"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-      
-      <label>
-        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-      </label>
-
-      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-      <div class="clearfix">
-        <button type="button" onclick="document.getElementById('Signup').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Sign Up</button>
-      </div>
-    </div>
-  </form>
+  </div>
 </div>
 
-<h2>Login If You Are Already Si</h2>
+  <div class="form1">
+<form action="" name="myForm" onsubmit="return(validate());">
+<fieldset>
+<legend><span class="number">1</span> Resgistration</legend>
+<input type="text" name="Name" placeholder="Your Name *">
+<input type="email" name="Email" placeholder="Your Email *">
+<input type="tele" placeholder="Telephone *"></input>
+<label for="job">Services:</label>
+<select id="job" name="services">
+<optgroup label="select your service">
+  <option value=""></option>
+  <option value="Cleaning">Cleaning</option>
+  <option value="Maid">Maid</option>
+  <option value="Plumbing">Plumbing</option>
+  <option value="Electricals">Electricals</option>
+  <option value="Painting">Painting</option>
+  <option value="Handyman">Handyman</option>
+</optgroup>
 
-<div class='log' Login Form>
-
-<button onclick="document.getElementById('log').style.display='block'" style="width:auto;">Login</button>
-
-<div id="log" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('log').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="assets/images/avatar.png" alt="avatar" class="avatar">
-    </div>
-
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('log').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
+</select>      
+</fieldset>
+<fieldset>
+<legend><span class="number">2</span> Description</legend>
+<textarea name="field3" placeholder="What you want..."></textarea>
+</fieldset>
+<input type="submit" value="Submit" />
+</form>
 </div>
+   
 </div>
-
-<div class ="icons">
-<a href="mailto:marahomeservices@gmail.com"><img src="assets/images/mail.png" alt="" id="logo"></a>
-<a href="mailto:marahomeservices@gmail.com"><img src="assets/images/facebook.png" alt="" id="logo"></a>
-<a href="https://www.instagram.com/marahomeservices/?hl=en"><img src="assets/images/ig.jpg" alt="" id="logo"></a>
-<a href="mailto:marahomeservices@gmail.com"><img src="assets/images/whatsapp.png" alt="" id="logo"></a>
-<a href="mailto:marahomeservices@gmail.com"><img src="assets/images/twitter.jpg" alt="" id="logo"></a>
-</div>
-
-<script src='assets/js/connect.js'></script>
-
-
-
-
-</body>
-</html>
 
 <footer>
-  Copyright &copy; MaRa Home Services
+  <a href="mailto:maraservices@gmail.com"><img src="assets/images/twit.jpg" alt="" class="icons" ></a>
+  <a href="mailto:maraservices@gmail.com"><img src="assets/images/mail.png" alt="" class="icons"></a>
+  <a href="mailto:maraservices@gmail.com"><img src="assets/images/ff.png" alt="" class="icons"></a>
+  <a href="mailto:maraservices@gmail.com"><img src="assets/images/link.png" alt="" class="icons"></a>
+  <p><b>Copyright &copy; MaRa Home Services  &nbsp; &nbsp; &nbsp; Contact Us : +233 205192729</b></p>
 </footer>
-</div>
- 
+
+ <script src='assets/js/index.js'></script>
+
+
 
 </body>
 </html>
